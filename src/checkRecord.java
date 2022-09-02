@@ -1,8 +1,5 @@
 public class checkRecord {
-public static void main(String[] args) {
-        String s = "PPALLP";
-        System.out.println(checkRecord(s));
-    }
+
     public static boolean checkRecord(String s) {
         int a = 0;
         int l = 0;

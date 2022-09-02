@@ -1,12 +1,6 @@
 import java.util.Arrays;
 
 public class networkDelayTime {
-    public static void main(String[] args) {
-        int[][] times = {{2, 1, 1}, {2, 3, 1}, {3, 4, 1}};
-        int N = 4;
-        int K = 2;
-        System.out.println(networkDelayTime(times, N, K));
-    }
     public static int networkDelayTime(int[][] times, int N, int K) {
         int[][] graph = new int[N][N];
         for (int i = 0; i < N; i++) {
